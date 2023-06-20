@@ -18,6 +18,6 @@ double get_gc_content(const std::string& var)
             count++;
         }
     }
-    result = (count/size) * 100.0;
+    result = (count/size);
     return result;
 }
